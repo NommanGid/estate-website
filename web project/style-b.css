@@ -1,0 +1,147 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2rem;
+  }
+  
+  nav button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  /* About */
+  .about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  /* agents css */
+  /* #cont{
+    display: flex;
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+  } */
+#agent{
+    margin: 4px;
+
+}
+#cont{
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+  #agent-profile{
+    display: flex;
+   border-radius: 10px;
+   background: rgb(233, 231, 231);
+    width: 550px;
+    height: fit-content;
+    padding: 3px;
+    
+  }
+
+  #note{
+    padding-left: 30px;
+    text-align: left;
+  }
+  input{
+    text-align: center;
+    background: black;
+    border: none;
+    color: white;
+  }
+  input:hover{
+    border: 1px solid black;
+    background: white;
+    color: black;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .footer hr {
+    margin: 50px 0;
+    border: none;
+    border-top: 1px solid #fff;
+  }
+  
+  .footer .col {
+    width: 20%;
+    float: left;
+  }
+  
+  .footer .col img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .footer .col p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .footer .media {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .footer .media img {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
